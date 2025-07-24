@@ -5,6 +5,17 @@
     }
 
 
+
+    
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
 /* Share Styles */
 
 .dark1{
@@ -24,6 +35,10 @@
 }
 
 /* Navbar styles */
+
+.home-tap{
+    font-weight: bold;
+}
 
 .logo-image {
     width: 135px;
@@ -49,7 +64,7 @@
 /* Banner Styles */
 
 .mainbar{
-    margin: 274px;
+    margin: 250px;
     margin-left: 150px;
     margin-right: 150px;
 }
@@ -64,9 +79,77 @@
 }
 
 .paragraph-section {
-    font-size: xx-large;
+     font-family: "Inter", sans-serif;
+     font-size: 22px;
+    /* font-size: xx-large; */
     margin-top: 13px;
 }
+
+
+/* Our plants styles */
+
+/* item part */
+
+.item-part{
+    padding: 40px 60px;
+    text-align: center;
+}
+.item-h{
+ font-size: 50px;
+ font-weight: bold;   
+}
+.item-h span{
+    color: #E95A08;
+}
+.item-text{
+    padding: 20px 5px;
+}
+.item-text p{
+    color: #8987A1;
+}
+.item-container{
+    padding-left: 60px;
+    padding-right: 60px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    
+}
+.item-card{
+   padding: 10px 10px;
+   padding-bottom: 50px;
+   object-fit: cover;
+}
+.item-card-img{
+    width: 100%; 
+
+}
+.item-card-img img{
+    width: 100%;
+    height: auto;
+}
+.item-card-content{
+    text-align: center;
+}
+.item-card-content h6{
+font-weight: bold;
+}
+.item-card-content button{
+    background-color: #E95A08;
+    color: white;
+    padding: 5px 40px;
+    margin-top: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight:500;
+    font-size:10px ;
+  
+}
+.item-card-content button:hover{
+    color: #000000;
+    background-color: rgb(11, 214, 228);
+}
+
+
 
 
 
@@ -98,7 +181,10 @@
 
 /* Responce Styles */
 
-@media screen and (width:765px){
-    
+/* @media screen and (width:576px){
+
+.banner-image {
     
 }
+    
+} */
