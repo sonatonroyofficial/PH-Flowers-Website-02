@@ -245,6 +245,83 @@ font-weight: bold;
     height: 101px; 
     border-radius: 20px;
     background-color: #8987A1;
+    background-image: url(../assets/deal-bloom.png);
+   
+}
+/* 
+#box2{
+grid-column: 2;
+grid-row: span 2;
+width: 100%;
+max-width:500px;
+height: 223.12px;
+ border-radius: 20px;
+ background-image: url(../assets/deal-zabo.png);
+} */
+/* /* #box3{
+    width: 100%;
+    max-width:500px;
+    height: 101px;
+    border-radius: 20px;
+    background-image: url(../assets/deal-ana.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+ */
+
+#box1 h4 ,a{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-top:40px ;
+}
+#box2 h4 ,a{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-top:90px ;
+}
+#box3 h4 ,a{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-top:40px ;
+}
+
+ /* extra */
+
+ .extra-content{
+    text-align: center;
+    padding: 40px 60px;
+
+ }
+.extra-content h3{
+    font-weight:bold;
+    font-size: 55px;
+    padding-bottom: 30px;
+}
+.extra-content h3 span{
+    color: #E95A08;
+}
+.extra-content p{
+    color: #8987A1;
+    padding-bottom: 50px;;
+}
+.extra-card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#box1{
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    max-width:500px;
+    height: 101px; 
+    border-radius: 20px;
+    background-color: #8987A1;
    
 }
 
@@ -255,14 +332,14 @@ width: 100%;
 max-width:500px;
 height: 223.12px;
  border-radius: 20px;
- background-image: url(assets/deal-zabo.png);
+ background-image: url(../assets/deal-zabo.png);
 }
 #box3{
     width: 100%;
     max-width:500px;
     height: 101px;
     border-radius: 20px;
-    background-image: url(assets/deal-ana.png);
+    background-image: url(../assets/deal-ana.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
