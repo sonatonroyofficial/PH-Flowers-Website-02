@@ -361,3 +361,91 @@ height: 223.12px;
     font-size: 16px;
     padding-top:40px ;
 }
+
+/* join */
+
+/* 
+.join-content{
+    text-align: center;
+    height: 533px;
+     padding: 40px 60px;
+    background-image: url(../assets/news-letter-bg.png);
+    max-width: 100%;
+    min-width: 100%
+    align-items: center;
+} */
+.subscribe-section {
+      background-image: url('../assets/news-letter-bg.png'); 
+      background-size: cover;
+      background-position: center;
+      height: 533px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .subscribe-content {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      padding: 20px;
+    }
+
+    .subscribe-content h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .subscribe-form {
+      display: flex;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .subscribe-form input[type="email"] {
+      flex: 1;
+      padding: 10px;
+      border: none;
+      font-size: 1rem;
+    }
+
+    .subscribe-form button {
+      padding: 15px 25px;
+      border: none;
+      background-color: #f25c05;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .subscribe-form button:hover {
+      background-color: #d94e00;
+    }
+
+
+    /* Responcese styles */
+
+    @media (max-width: 600px) {
+      .subscribe-form {
+        flex-direction: column;
+      }
+
+      .subscribe-form input,
+      .subscribe-form button {
+        width: 100%;
+        margin: 5px 0;
+      }
+    }
