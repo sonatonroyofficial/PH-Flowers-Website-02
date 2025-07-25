@@ -36,12 +36,18 @@
 
 /* Navbar styles */
 
+
 .home-tap{
     font-weight: bold;
 }
 
+
 .logo-image {
     width: 135px;
+}
+
+.cart-tap{
+    color: #000000;
 }
 
 .header{
@@ -149,42 +155,132 @@ font-weight: bold;
     background-color: rgb(11, 214, 228);
 }
 
+/* blog */
 
-
-
-
-
-
-
-
-
-/* 
-.banner-container{
-    width: 570px;
-    font-weight: 800;
-}
-
-.banner {
+.blog{
+    padding: 60px 60px;
+    padding-top: 60px;
     display: flex;
-    margin-top: 225px;
-    margin-left: 150px;
-    margin-right: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog-content{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 60px ;
+}
+.blog-content h3{
+    font-weight:bold;
+    font-size: 55px;
+    padding-bottom: 30px;
+}
+.blog-content li{
+    color: #8987A1;
+    padding-bottom: 10px;
+    column-gap: 10px;
 }
 
-.banner-image{
-    max-width: 500px;
-      height: auto;
-} */
 
 
-
-
-/* Responce Styles */
-
-/* @media screen and (width:576px){
-
-.banner-image {
-    
+.blog-img{
+    position: relative;
+    width: 100%;
+    min-width: 300px;;
+    max-width: 570px;
+    height: auto;
+    object-fit: cover;
+    box-sizing: border-box;
 }
-    
-} */
+.blog-img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.blog-badge{
+    position: absolute;
+       top: -90px;
+       right: -100px;
+       width:250px;
+       height: auto;
+       z-index: 10;
+       display: block;
+    }
+.blog-badge img{
+    width: 100%;
+    height: auto;
+   
+}
+ /* extra */
+
+ .extra-content{
+    text-align: center;
+    padding: 40px 60px;
+
+ }
+.extra-content h3{
+    font-weight:bold;
+    font-size: 55px;
+    padding-bottom: 30px;
+}
+.extra-content h3 span{
+    color: #E95A08;
+}
+.extra-content p{
+    color: #8987A1;
+    padding-bottom: 50px;;
+}
+.extra-card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#box1{
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    max-width:500px;
+    height: 101px; 
+    border-radius: 20px;
+    background-color: #8987A1;
+   
+}
+
+#box2{
+grid-column: 2;
+grid-row: span 2;
+width: 100%;
+max-width:500px;
+height: 223.12px;
+ border-radius: 20px;
+ background-image: url(assets/deal-zabo.png);
+}
+#box3{
+    width: 100%;
+    max-width:500px;
+    height: 101px;
+    border-radius: 20px;
+    background-image: url(assets/deal-ana.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box1 h4 ,a{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-top:40px ;
+}
+#box2 h4 ,a{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-top:90px ;
+}
+#box3 h4 ,a{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-top:40px ;
+}
