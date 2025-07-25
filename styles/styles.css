@@ -130,42 +130,6 @@ padding: 20px 5px;
 
 
 
-
-
-
-/* Navbar styles
-
-
-.home-tap{
-    font-weight: bold;
-}
-
-
-.logo-image {
-    width: 135px;
-}
-
-.cart-tap{
-    color: #000000;
-}
-
-.header{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 30px;
-}
-
-.cart-image {
-    width: 30px;
-}
-
-.navbar a {
-    text-decoration: none;
-    padding: 15px;
-/* } */
-
 /* Banner Styles */
 
 .mainbar{
@@ -191,7 +155,7 @@ padding: 20px 5px;
 } */
 
 
-/* Our plants styles */
+
 
 /* item part */
 
@@ -351,25 +315,7 @@ font-weight: bold;
     background-image: url(../assets/deal-bloom.png);
    
 }
-/* 
-#box2{
-grid-column: 2;
-grid-row: span 2;
-width: 100%;
-max-width:500px;
-height: 223.12px;
- border-radius: 20px;
- background-image: url(../assets/deal-zabo.png);
-} */
-/* /* #box3{
-    width: 100%;
-    max-width:500px;
-    height: 101px;
-    border-radius: 20px;
-    background-image: url(../assets/deal-ana.png);
-    background-repeat: no-repeat;
-    background-size: cover; */
- */
+
 
 #box1 h4 ,a{
     color: white;
@@ -597,7 +543,7 @@ color:#8987A1;
 
 
 
-/* responsive */
+/* responsive Styles All Section */
 
 @media screen and (max-width: 576px){
 
