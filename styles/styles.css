@@ -435,6 +435,63 @@ height: 223.12px;
       background-color: #d94e00;
     }
 
+    /* footer */
+
+.footer-part{
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 60px ;
+}
+.footer-content h3{
+    font-weight:bold;
+    font-size: 55px;
+    padding-bottom: 30px;
+   
+
+}
+.footer-text p{
+    font-size: 22px;
+    color: #8987A1
+}
+.footer-content{
+ align-items: center;
+ display: flex;
+ justify-content: space-between;
+
+}
+.footer-item-3{
+display:flex;
+align-items: top;
+margin-top: -150px;
+justify-content: space-between;
+gap: 20px;
+padding-top:0px ;
+
+}
+.footer-list-2 li{
+list-style-type: none;
+padding: 10px 20px;
+color:#8987A1;
+}
+.footer-list li{
+list-style-type: none;
+padding: 10px 20px;
+color:#8987A1;
+}
+.footer-part p{
+    color: #8987A1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
 
     /* Responcese styles */
 
