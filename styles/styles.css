@@ -34,7 +34,106 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
-/* Navbar styles */
+
+
+
+/* body */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    }
+.noto-serif-common {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+}
+
+
+/* navbar */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+.nav-item-list{
+    list-style-type:none; 
+    /* padding: 10px; */
+    display: flex;
+}
+.nav-item{
+    display: flex;
+   
+}
+.nav-item li{
+    list-style-type:none; 
+    padding: 10px 20px;
+    cursor: pointer;
+    color:#252432;
+}
+.nav-item li:hover{
+    color: blue;
+
+}
+.nav-item li span{
+    color: #8987A1;
+   
+}
+.nav-item li span:hover{
+    color: blue;
+}
+
+/* banner */
+
+.banner{
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+}
+.banner-heading h3{
+    font-weight:bold;
+    font-size: 65px;
+}
+.banner-heading h3 span{
+    color:#E95A08 ;
+    font-weight:bold;
+    font-size: 65px;
+}
+
+.banner-text{
+font-family:"Inter", sans-serif;
+padding: 20px 5px;
+}
+.banner-text p{
+    color: #8987A1 ;
+}
+.banner-img{
+    width: 100%;
+    min-width: 300px;;
+    max-width: 570px;
+    height: auto;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.banner-img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    object-fit: cover;
+}
+
+
+
+
+
+
+/* Navbar styles
 
 
 .home-tap{
@@ -65,7 +164,7 @@
 .navbar a {
     text-decoration: none;
     padding: 15px;
-}
+/* } */
 
 /* Banner Styles */
 
@@ -89,12 +188,16 @@
      font-size: 22px;
     /* font-size: xx-large; */
     margin-top: 13px;
-}
+} */
 
 
 /* Our plants styles */
 
 /* item part */
+
+.item-h{
+    justify-content: center;
+}
 
 .item-part{
     padding: 40px 60px;
@@ -493,7 +596,151 @@ color:#8987A1;
 }
 
 
-    /* Responcese styles */
+
+/* responsive */
+
+@media screen and (max-width: 576px){
+
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing: border-box;
+        }
+    
+    /* nav-responsive */
+    .nav{
+        padding: 20px 20px;
+        align-items: center;
+    }
+    .nav-item-list{
+        display: none;
+    }
+    .nav-item li{
+        font-size:30px;
+        padding: 10px 20px;
+    
+    }
+
+    /* banner-responsive */
+    .banner{
+        padding: 20px ;
+        align-items: center;
+        flex-direction: column-reverse;
+
+    }
+    .banner-heading h3{
+        font-size: 40px;
+        padding-top: 40px ;
+    }
+    .banner-heading h3 span{
+        font-size: 40px;
+    }
+    .banner-text p{
+        font-size: 20px;
+    }
+    .banner-img{
+     max-width: 100%;
+    }
+    .banner-img img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+        /* item part responsive */
+    .item-container{
+        padding-left: 20px;
+        padding-right: 20px;
+        display: grid;
+     
+        grid-template-columns: repeat(2,1fr) ;
+    
+    }
+    .item-card-img{
+    max-width: 100%; 
+    }
+    .item-card-img img{
+    width: 100%;
+    height: auto;
+    }
+    
+    /* blog responsive */
+     .blog{
+        padding-top: 50px ;
+        flex-direction: column;
+
+    }
+     .blog-content{
+      padding: 20px 10px;
+      text-align: left;
+    }
+
+    .blog-content h3{
+        font-size: 30px;
+        padding-top: 40px ;
+    }
+    .blog-content li{
+        font-size: 20px;
+    }
+   .blog-img{
+    max-width: 100%;
+    }
+    .blog-img img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }  
+   .blog-badge{
+    display: none;
+    } 
+
+    /* join */
+    .join-content{
+        padding: 20px 20px;
+
+    }
+    /* extra responsive*/
+.extra-card-container{
+    display:flex;
+    flex-direction: column;
+   gap: 20px;
+}
+    #box1, #box2, #box3{
+        max-width: 100%;
+    width: 100%;
+    height:184.5px;
+    }
+    #box1 h4 ,a{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-top:70px ;
+    }
+    #box2 h4 ,a{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-top:70px ;
+    }
+    #box3 h4 ,a{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-top:70px ;
+    }
+    /* footer */
+  .footer-part{
+    padding: 20px ;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  
+}
+.footer-item-3{
+    margin-top: 10px;
+
+}
+
+}
 
     @media (max-width: 600px) {
       .subscribe-form {
