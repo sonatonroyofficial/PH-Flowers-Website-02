@@ -616,9 +616,12 @@ color:#8987A1;
         display: none;
     }
     .nav-item li{
-        font-size:30px;
+        font-size:20px;
         padding: 10px 20px;
     
+    }
+    #cart-section-tap {
+        padding-right: 5px;
     }
 
     /* banner-responsive */
@@ -741,7 +744,7 @@ color:#8987A1;
 }
 
 }
-
+/* 
     @media (max-width: 600px) {
       .subscribe-form {
         flex-direction: column;
@@ -752,4 +755,4 @@ color:#8987A1;
         width: 100%;
         margin: 5px 0;
       }
-    }
+    } */
